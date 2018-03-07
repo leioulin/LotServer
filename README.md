@@ -17,9 +17,9 @@ mv apx-*.lic /appex/etc/apx.lic
 chattr +ai /appex/etc/apx.lic
 
 # Install lotserver
-cp -f $(which ethtool) /appex/bin
 wget -O /appex/bin/acce-3.11.20.10 https://github.com/pexcn/LotServer/raw/master/install/acce/<version>
 chmod +x /appex/bin/acce-3.11.20.10
+cp -f $(which ethtool) /appex/bin
 
 # Setup install files
 cd /tmp/lotserver
