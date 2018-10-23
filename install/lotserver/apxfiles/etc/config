@@ -61,7 +61,7 @@ mpoolMaxCache="7368000"
 #------------------------------------------------------#
 engineNum="0"
 accppp="0"
-shortRttMS="0"
+shortRttMS="20"
 packetWrapper="256"
 pmtu=""
 detectInterrupt="0"
