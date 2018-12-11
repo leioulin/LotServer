@@ -46,3 +46,13 @@ find / -iname "*appex*"
 find / -iname "*lotserver*"
 find / -iname "*serverspeeder*"
 ```
+
+## Performance improvement
+
+Adjustment `/appex/etc/config` options:
+
+```
+initialCwndWan
+l2wQLimit
+w2lQLimit
+```
